@@ -1,7 +1,3 @@
-const alturaEmCm = 185;
+const alturaEmCm = 175;
 
-if (alturaEmCm > 180) {
-    console.log('Aprovado')
-} else {
-    console.log('Reprovado')
-}
+console.log(alturaEmCm >= 180 ? 'APROVADO' : 'REPROVADO')
